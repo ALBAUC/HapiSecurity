@@ -1,2 +1,9 @@
 # Hapi Security
 
+##  APLICACIÓN PARA EL ANÁLISIS DE DISPOSITIVOS IoT EN BASE A SU SEGURIDAD Y SOSTENIBILIDAD
+
+Actualmente, utilizamos un gran número y variedad de dispositivos inteligentes conectados a la red (IoT) tanto en entornos domésticos como laborales, sanitarios, de transporte, etc. Aunque dichos dispositivos manejan infraestructuras críticas e información sensible, no suelen contar con un buen nivel de seguridad. Por otro lado, al ser dispositivos que están continuamente conectados, la sostenibilidad también es un aspecto importante a tener en cuenta. Este proyecto se centra en ayudar a los usuarios a mejorar la infraestructura de su entorno (hogar, oficina, etc.) mediante el uso de dispositivos más adecuados.
+
+Para ello, en este proyecto se desarrolla una aplicación móvil (Hapi Security) que permite conocer cómo de seguro y sostenible es un dispositivo IoT concreto, a qué se deben sus problemas de seguridad y sostenibilidad, y si existen alternativas mejores. Cada dispositivo tiene asociada una calificación de seguridad (de 0 a 100) y de sostenibilidad (de A a G) y una serie de aspectos que presenta e influyen de forma positiva o negativa en dichas calificaciones. La aplicación ha sido desarrollada para Android utilizando Java y presenta funcionalidades para permitir búsquedas y filtrados de dispositivos, escanear códigos de barras, gestionar favoritos y compartir la aplicación.
+
+Como apoyo a dicha aplicación, se desarrolla un servicio REST utilizando Spring Boot con información sobre el catálogo de dispositivos IoT (alineada con ENISA) junto con sus calificaciones de seguridad y sostenibilidad y el listado de aspectos que influyen positiva o negativamente en ellas.
